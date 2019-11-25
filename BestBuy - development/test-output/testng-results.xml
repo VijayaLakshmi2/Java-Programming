@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="57247" started-at="2019-11-05T08:33:15Z" finished-at="2019-11-05T08:34:13Z">
+    <groups>
+      <group name="Regression">
+        <method signature="SearchByCategory.TC246()[pri:0, instance:com.bestbuy.demotests.testpages.SearchByCategory@8dbdac1]" name="TC246" class="com.bestbuy.demotests.testpages.SearchByCategory"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="SearchByCategory.TC166()[pri:0, instance:com.bestbuy.demotests.testpages.SearchByCategory@8dbdac1]" name="TC166" class="com.bestbuy.demotests.testpages.SearchByCategory"/>
+        <method signature="SearchByCategory.TC243()[pri:0, instance:com.bestbuy.demotests.testpages.SearchByCategory@8dbdac1]" name="TC243" class="com.bestbuy.demotests.testpages.SearchByCategory"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Default test" duration-ms="57247" started-at="2019-11-05T08:33:15Z" finished-at="2019-11-05T08:34:13Z">
+      <class name="com.bestbuy.demotests.testpages.SearchByCategory">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.bestbuy.demotests.testpages.SearchByCategory@8dbdac1]" name="setUp" is-config="true" duration-ms="3921" started-at="2019-11-05T14:03:15Z" finished-at="2019-11-05T14:03:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.bestbuy.demotests.testpages.SearchByCategory.TC166() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC166()[pri:0, instance:com.bestbuy.demotests.testpages.SearchByCategory@8dbdac1]" name="TC166" duration-ms="11224" started-at="2019-11-05T14:03:19Z" finished-at="2019-11-05T14:03:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC166 -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.bestbuy.demotests.testpages.SearchByCategory@8dbdac1]" name="setUp" is-config="true" duration-ms="3401" started-at="2019-11-05T14:03:31Z" finished-at="2019-11-05T14:03:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.bestbuy.demotests.testpages.SearchByCategory.TC243() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC243()[pri:0, instance:com.bestbuy.demotests.testpages.SearchByCategory@8dbdac1]" name="TC243" duration-ms="9393" started-at="2019-11-05T14:03:34Z" finished-at="2019-11-05T14:03:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC243 -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.bestbuy.demotests.testpages.SearchByCategory@8dbdac1]" name="setUp" is-config="true" duration-ms="3333" started-at="2019-11-05T14:03:43Z" finished-at="2019-11-05T14:03:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.bestbuy.demotests.testpages.SearchByCategory.TC244() throws java.awt.AWTException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC244()[pri:0, instance:com.bestbuy.demotests.testpages.SearchByCategory@8dbdac1]" name="TC244" duration-ms="11590" started-at="2019-11-05T14:03:47Z" finished-at="2019-11-05T14:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC244 -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.bestbuy.demotests.testpages.SearchByCategory@8dbdac1]" name="setUp" is-config="true" duration-ms="3391" started-at="2019-11-05T14:03:58Z" finished-at="2019-11-05T14:04:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.bestbuy.demotests.testpages.SearchByCategory.TC246() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC246()[pri:0, instance:com.bestbuy.demotests.testpages.SearchByCategory@8dbdac1]" name="TC246" duration-ms="10979" started-at="2019-11-05T14:04:02Z" finished-at="2019-11-05T14:04:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC246 -->
+      </class> <!-- com.bestbuy.demotests.testpages.SearchByCategory -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

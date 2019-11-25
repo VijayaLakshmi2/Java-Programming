@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+-<suite verbose="1" name="Suite1">
+
+
+-<test name="ShopByCategory">
+
+-<groups>
+
+-<run>
+
+<include name="Smoke"/>
+
+<include name="Regression"/>
+
+</run>
+
+</groups>
+
+
+-<classes>
+
+<class name="package com.bestbuy.demotests.testpages.SearchByCategory"/>
+
+
+</classes>
+
+</test>
+
+</suite>

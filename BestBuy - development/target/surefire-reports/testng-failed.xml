@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.bestbuy.demotests.testpages.Sort_TestCase">
+        <methods>
+          <include name="sortProductsByHighToLow"/>
+          <include name="sortProductsByLowToHigh"/>
+          <include name="sortProductsByBestMatch"/>
+          <include name="sortProductsByhighestRated"/>
+        </methods>
+      </class> <!-- com.bestbuy.demotests.testpages.Sort_TestCase -->
+      <class name="com.bestbuy.demotests.pageobjects.emailpreference.UpdateEmailPreferencesTest">
+        <methods>
+          <include name="UpdateEmailPreference"/>
+        </methods>
+      </class> <!-- com.bestbuy.demotests.pageobjects.emailpreference.UpdateEmailPreferencesTest -->
+      <class name="com.bestbuy.demotests.testpages.TestClass">
+        <methods>
+          <include name="transactionFailsForIncorrectPaymentInfo"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bestbuy.demotests.testpages.TestClass -->
+      <class name="com.bestbuy.demotests.testpages.TestFeedback">
+        <methods>
+          <include name="TC_171"/>
+        </methods>
+      </class> <!-- com.bestbuy.demotests.testpages.TestFeedback -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

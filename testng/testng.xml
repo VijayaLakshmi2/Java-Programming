@@ -1,0 +1,7 @@
+<suite name="Amazon Test Suite">
+<test name="login">
+<Classes>
+<Class name="Testcase1"></Class>
+</Classes>
+</test>
+</suite>
